@@ -4,7 +4,7 @@ import './CreateTask.css'
 export default function Createtask() {
   return (
     <div>
-      task
+      tasks
       
     </div>
   )
