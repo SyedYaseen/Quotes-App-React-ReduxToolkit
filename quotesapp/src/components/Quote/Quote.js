@@ -3,6 +3,8 @@ import './Quote.css'
 
 export default function Quote() {
   return (
-    <div>Quote</div>
+    <div className='quote-wrapper'>
+      <p>"All those who wander are not lost"</p>
+    </div>
   )
 }

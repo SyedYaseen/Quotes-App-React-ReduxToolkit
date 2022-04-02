@@ -4,14 +4,12 @@
   justify-content: space-between;
   width: 100%;
   height: 100vh;
-  background-color: rgb(141, 197, 247);
 }
 
 .content-wrapper {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  background-color: brown;
   justify-content: center;
   padding: 3% 2%;
 }
@@ -28,8 +26,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
+  border-radius: 5px;
   justify-content: center;
-  background-color: rgb(61, 163, 95);
 }
 
 .weather {
@@ -39,7 +37,6 @@
   padding: 0 2% 0 0;
   align-items: center;
   justify-content: flex-end;
-  background-color: aquamarine;
 }
 
 .task-wrapper {
@@ -47,14 +44,12 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: rgb(243, 187, 118);
   height: 50%;
 }
 
 .create-task-wrapper {
   height: 10vh;
   width: 100%;
-  background-color: aqua;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,21 +58,19 @@
 .task-list-wrapper {
   height: 100%;
   width: 100%;
-  background-color: rgb(41, 136, 136);
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 5%;
 }
 
 .task-wrapper {
   width: 100%;
-  background-color: azure;
 }
 
 .bottom-section {
   height: 20%;
   width: 100%;
-  background-color: beige;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,5 +78,4 @@
 
 .quote-wrapper {
   width: 100%;
-  background-color: beige;
 }

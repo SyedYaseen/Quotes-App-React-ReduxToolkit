@@ -4,16 +4,15 @@ import Weather from './components/Weather/Weather'
 import CreateTask from './components/CreateTask/Createtask'
 import TaskList from './components/TaskList/Tasklist'
 import Quote from './components/Quote/Quote'
-// import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
 function App() {
   return (
     <div className="App">
 
       <div className='btn-wrapper'>
-
-        {/* <ChevronRightIcon></ChevronRightIcon> */}
-        <button className='btn-arrow'>Left</button>
+        <ChevronLeftIcon fontSize='large' className='btn-arrow'></ChevronLeftIcon>
       </div>
 
       <div className='content-wrapper'>
@@ -38,7 +37,7 @@ function App() {
         </div>
     
       <div className='btn-wrapper'>
-        <button className='btn-arrow'>Right</button>
+        <ChevronRightIcon fontSize= 'large' className='btn-arrow' ></ChevronRightIcon>
       </div>
     </div>
   );

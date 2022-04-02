@@ -1,0 +1,24 @@
+.task {
+  background-color: rgba(53, 53, 54, 0.5);
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 5px;
+  color: rgb(255, 242, 242);
+}
+
+h4 {
+  margin-bottom: 0px 0;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.task-header {
+  width: 100%;
+}
+
+.task-text {
+  width: 100%;
+}
