@@ -1,18 +1,27 @@
+.task-wrapper {
+  display: flex;
+  position: relative;
+}
+
 .task {
   background-color: rgba(53, 53, 54, 0.5);
   border-radius: 5px;
   display: flex;
-  flex-wrap: wrap;
   padding: 0px 5px;
+  min-height: 25px;
+  min-width: 150px;
   color: rgb(255, 242, 242);
 }
 
-h4 {
-  margin-bottom: 0px 0;
+p {
+  width: 100%;
 }
 
-p {
-  margin-bottom: 15px;
+.fab-btn-wrapper {
+  display: flex;
+  position: absolute;
+  top: 150%;
+  left: 40%;
 }
 
 .task-header {
@@ -20,5 +29,11 @@ p {
 }
 
 .task-text {
+  margin: 15px 10px 15px 10px;
   width: 100%;
+  align-self: center;
+}
+
+.reduce-opacity {
+  opacity: 0.5;
 }

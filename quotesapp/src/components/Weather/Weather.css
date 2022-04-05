@@ -1,0 +1,14 @@
+.weather-wrapper {
+  /* padding: 100px; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.zero-margin {
+  display: flex;
+  align-self: flex-start;
+  margin: 3px;
+  width: 100%;
+}
